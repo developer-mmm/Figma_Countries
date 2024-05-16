@@ -1,0 +1,145 @@
+/* nunito-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "sans300";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/nunito-sans-v15-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "sans400";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/nunito-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "sans600";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/nunito-sans-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "sans800";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/nunito-sans-v15-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  padding-bottom: 45px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 23px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #eee;
+}
+
+.nav_title {
+  font-family: "sans800";
+  font-size: 24px;
+}
+
+.nav_btn {
+  font-family: "sans600";
+  font-size: 16px;
+  color: #111517;
+  border-radius: 12px;
+}
+
+.dark-mode {
+  background-color: #202c36;
+  color: white;
+}
+.search_bar {
+  background-color: #eee;
+  width: 480px;
+  height: 56px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+input {
+  width: 460px;
+  background-color: #eee;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  color: blue;
+}
+
+.fa-solid:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.select {
+  width: 200px;
+  height: 56px;
+  text-align: center;
+  font-family: "sans400";
+  font-size: 14px;
+  color: #111517;
+  line-height: 20px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px #eee;
+}
+
+.wrapper_search_and_select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.card {
+  max-width: 272px;
+  height: 336px;
+  box-shadow: 1px 1px 1px #eee;
+  border-radius: 12px;
+  padding-bottom: 32px;
+}
+
+.card-body {
+  padding-left: 24px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-family: "sans800";
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.list-group-item {
+  font-family: "sans300";
+  padding-top: 8px;
+}
+
+.list-group-item span {
+  font-family: "sans600";
+}
+
+.wrapper-flags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 75px;
+}
